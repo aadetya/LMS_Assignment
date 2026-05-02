@@ -1,8 +1,8 @@
 # LearnTrack — Cohort Learning Operations Console
 
-LearnTrack is a console-based Core Java application for managing students, trainers, courses, enrollments, waitlists, course capacity, learning reports, and operational history. The assignment target is a Student & Course Management System using Core Java fundamentals, so the project stays within plain Java and in-memory storage.
+LearnTrack is a small terminal-based LMS project built for the Core Java assignment. It handles the usual learning-management work: students, trainers, courses, enrollments, seat capacity, waitlists, reports, and action history. The project uses plain Java and in-memory `ArrayList` storage, so it can be compiled and tested with only the JDK.
 
-The console areas are named **Learner Desk**, **Course Catalog Ops**, **Enrollment Desk**, **Reports & Signals**, **Action Journal**, and **Guided Demo**. The main domain classes still use the required academic entities such as `Student`, `Course`, and `Enrollment`.
+The menu is organized like an admin console. **Learner Desk** handles students, **Course Catalog Ops** handles courses, **Enrollment Desk** handles enrollment decisions, **Reports & Signals** shows system status, **Action Journal** keeps operation history, and **Guided Demo** walks through the main workflow. The required classes such as `Student`, `Course`, `Enrollment`, `Person`, and `Trainer` are kept easy to find in the source code.
 
 ---
 
