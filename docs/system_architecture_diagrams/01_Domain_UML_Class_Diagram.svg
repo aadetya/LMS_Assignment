@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1540" viewBox="0 0 960 1540" role="img" aria-label="LearnTrack — Domain UML Class Diagram">
+<defs>
+<marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/></marker>
+<marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#059669"/></marker>
+<marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d97706"/></marker>
+<marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7c3aed"/></marker>
+<marker id="arrow-gray" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+<marker id="arrow-pink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#db2777"/></marker>
+<marker id="inherit" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 13 7 L 0 14 z" fill="white" stroke="#2563eb" stroke-width="1.8"/></marker>
+</defs>
+<rect x="0" y="0" width="960" height="1540" fill="#ffffff"/>
+<text x="480.0" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">LearnTrack — Domain UML Class Diagram</text>
+<text x="480.0" y="58" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#4b5563">Entities, inheritance, ID references, and enrollment decision records</text>
+<g transform="translate(54,74)">
+<rect x="0" y="0" width="360" height="122" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="14" y="21" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Legend</text>
+<line x1="15" y1="36" x2="65" y2="36" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<text x="78" y="40" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">extends / inherits</text>
+<line x1="15" y1="59" x2="65" y2="59" stroke="#d97706" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow-orange)"/>
+<text x="78" y="63" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">ID reference between records</text>
+<line x1="15" y1="82" x2="65" y2="82" stroke="#db2777" stroke-width="2" marker-end="url(#arrow-pink)"/>
+<text x="78" y="86" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">decision contains result object</text>
+<line x1="15" y1="105" x2="65" y2="105" stroke="#7c3aed" stroke-width="2" marker-end="url(#arrow-purple)"/>
+<text x="78" y="109" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">operation or audit record</text>
+</g>
+<g transform="translate(330,190)">
+<rect x="0" y="0" width="300" height="218" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="300" height="36" rx="12" fill="#dbeafe" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 300" stroke="#0f172a" stroke-width="1"/>
+<text x="150.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Person</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">id</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">firstName</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="113" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">lastName</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="130" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">email</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<rect x="12" y="141" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="179" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getFullName()</text>
+<text x="18" y="196" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getDisplayName()</text>
+</g>
+<g transform="translate(58,430)">
+<rect x="0" y="0" width="360" height="218" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="360" height="36" rx="12" fill="#e0f2fe" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 360" stroke="#0f172a" stroke-width="1"/>
+<text x="180.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Student</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">batch</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">active</tspan><tspan fill="#6b7280"> : boolean</tspan></text>
+<text x="18" y="113" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">learningGoal</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="130" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">joinedOn</tspan><tspan fill="#6b7280"> : LocalDate</tspan></text>
+<rect x="12" y="141" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="179" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getStudentCard()</text>
+<text x="18" y="196" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getDisplayName()</text>
+</g>
+<g transform="translate(542,430)">
+<rect x="0" y="0" width="360" height="201" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="360" height="36" rx="12" fill="#e0f2fe" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 360" stroke="#0f172a" stroke-width="1"/>
+<text x="180.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Trainer</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">expertise</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">active</tspan><tspan fill="#6b7280"> : boolean</tspan></text>
+<text x="18" y="113" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">joinedOn</tspan><tspan fill="#6b7280"> : LocalDate</tspan></text>
+<rect x="12" y="124" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="138" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="162" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getTrainerCard()</text>
+<text x="18" y="179" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getDisplayName()</text>
+</g>
+<g transform="translate(58,710)">
+<rect x="0" y="0" width="360" height="269" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="360" height="36" rx="12" fill="#fde68a" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 360" stroke="#0f172a" stroke-width="1"/>
+<text x="180.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Enrollment</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">id</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">studentId</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="113" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">courseId</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="130" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">enrollmentDate</tspan><tspan fill="#6b7280"> : LocalDate</tspan></text>
+<text x="18" y="147" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">status</tspan><tspan fill="#6b7280"> : EnrollmentStatus</tspan></text>
+<text x="18" y="164" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">statusNote</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<rect x="12" y="175" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="189" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="213" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">isOpen()</text>
+<text x="18" y="230" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">isFinal()</text>
+<text x="18" y="247" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">markActive(note)</text>
+</g>
+<g transform="translate(542,710)">
+<rect x="0" y="0" width="360" height="269" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="360" height="36" rx="12" fill="#dcfce7" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 360" stroke="#0f172a" stroke-width="1"/>
+<text x="180.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Course</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">id</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">courseCode</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="113" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">courseName</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="130" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">durationInWeeks</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="147" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">maxSeats</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="164" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">level</tspan><tspan fill="#6b7280"> : CourseLevel</tspan></text>
+<text x="18" y="181" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">trainerId</tspan><tspan fill="#6b7280"> : Integer</tspan></text>
+<rect x="12" y="192" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="206" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="230" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getShortSummary()</text>
+<text x="18" y="247" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getOperationalStatus()</text>
+</g>
+<g transform="translate(58,1010)">
+<rect x="0" y="0" width="382" height="252" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="382" height="36" rx="12" fill="#fce7f3" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 382" stroke="#0f172a" stroke-width="1"/>
+<text x="191.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">EnrollmentDecision</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">accepted</tspan><tspan fill="#6b7280"> : boolean</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">waitlisted</tspan><tspan fill="#6b7280"> : boolean</tspan></text>
+<text x="18" y="113" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">rejected</tspan><tspan fill="#6b7280"> : boolean</tspan></text>
+<text x="18" y="130" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">decisionReason</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="147" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">ruleCodeApplied</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<rect x="12" y="158" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="196" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">accepted(...)</text>
+<text x="18" y="213" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">waitlisted(...)</text>
+<text x="18" y="230" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">rejected(...)</text>
+</g>
+<g transform="translate(520,1010)">
+<rect x="0" y="0" width="382" height="218" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="382" height="36" rx="12" fill="#fce7f3" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 382" stroke="#0f172a" stroke-width="1"/>
+<text x="191.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">OperationReceipt</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">receiptId</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">createdAt</tspan><tspan fill="#6b7280"> : LocalDateTime</tspan></text>
+<text x="18" y="113" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">operationName</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="130" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">outcome</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="147" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">ruleSummary</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<rect x="12" y="158" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="172" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="196" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">toDisplayBlock()</text>
+</g>
+<g transform="translate(280,1280)">
+<rect x="0" y="0" width="400" height="235" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="400" height="36" rx="12" fill="#ede9fe" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 400" stroke="#0f172a" stroke-width="1"/>
+<text x="200.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">ActionLogEntry</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">id</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">occurredAt</tspan><tspan fill="#6b7280"> : LocalDateTime</tspan></text>
+<text x="18" y="113" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">actionType</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="130" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">summary</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="147" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">referenceType</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="164" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">referenceId</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<rect x="12" y="175" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="189" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="213" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">toString()</text>
+</g>
+<line x1="238" y1="430" x2="405" y2="408" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arrow-blue)"/>
+<line x1="722" y1="430" x2="555" y2="408" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arrow-blue)"/>
+<line x1="238" y1="710" x2="238" y2="625" stroke="#d97706" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow-orange)"/>
+<rect x="202.75" y="652" width="70.5" height="18" rx="6" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="238" y="665" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#d97706">studentId</text>
+<line x1="542" y1="845" x2="418" y2="845" stroke="#d97706" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow-orange)"/>
+<rect x="448.0" y="817" width="64.0" height="18" rx="6" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="480" y="830" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#d97706">courseId</text>
+<line x1="722" y1="710" x2="722" y2="625" stroke="#d97706" stroke-width="1.7" stroke-dasharray="7 5" marker-end="url(#arrow-orange)"/>
+<rect x="686.75" y="652" width="70.5" height="18" rx="6" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="722" y="665" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#d97706">trainerId</text>
+<line x1="249" y1="1010" x2="249" y2="955" stroke="#db2777" stroke-width="1.7" marker-end="url(#arrow-pink)"/>
+<rect x="226.75" y="969" width="44.5" height="18" rx="6" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="249" y="982" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#db2777">wraps</text>
+<line x1="440" y1="1125" x2="520" y2="1125" stroke="#db2777" stroke-width="1.7" marker-end="url(#arrow-pink)"/>
+<rect x="451.25" y="1097" width="57.5" height="18" rx="6" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="480" y="1110" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#db2777">receipt</text>
+</svg>

@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1180" viewBox="0 0 960 1180" role="img" aria-label="LearnTrack — Console Navigation Map">
+<defs>
+<marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/></marker>
+<marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#059669"/></marker>
+<marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d97706"/></marker>
+<marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7c3aed"/></marker>
+<marker id="arrow-gray" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+<marker id="arrow-pink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#db2777"/></marker>
+<marker id="inherit" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 13 7 L 0 14 z" fill="white" stroke="#2563eb" stroke-width="1.8"/></marker>
+</defs>
+<rect x="0" y="0" width="960" height="1180" fill="#ffffff"/>
+<text x="480.0" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">LearnTrack — Console Navigation Map</text>
+<text x="480.0" y="58" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#4b5563">Main menu sections and important console actions</text>
+<g transform="translate(330,90)">
+<rect x="0" y="0" width="300" height="85" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="300" height="34" rx="14" fill="#dcfce7" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 300" stroke="#334155" stroke-width="1"/>
+<text x="150.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Main Console Menu</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563"><tspan font-weight="700" fill="#111827">Starts from:</tspan> LearnTrackConsole.start()</text>
+</g>
+<g transform="translate(70,250)">
+<rect x="0" y="0" width="380" height="155" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Learner Desk</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Add/view/search students</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Update learner profile</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Safe deactivate/reactivate</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Open Student Learning Trail</text>
+</g>
+<g transform="translate(510,250)">
+<rect x="0" y="0" width="380" height="155" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Trainer Desk</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Add/view/search trainers</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Update trainer profile</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Safe deactivate/reactivate</text>
+</g>
+<g transform="translate(70,470)">
+<rect x="0" y="0" width="380" height="155" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Course Catalog Ops</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Add/update courses</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Open/close enrollment window</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Assign/unassign trainer</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">View Course Operations Card</text>
+</g>
+<g transform="translate(510,470)">
+<rect x="0" y="0" width="380" height="155" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Enrollment Desk</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Enroll student</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">View course/student enrollments</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Complete or cancel enrollment</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Inspect course waitlist</text>
+</g>
+<g transform="translate(70,690)">
+<rect x="0" y="0" width="380" height="155" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Reports &amp; Signals</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Learning Pulse Dashboard</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Cohort Health Score</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Capacity and Waitlist Reports</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Trainer Coverage and People Directory</text>
+</g>
+<g transform="translate(510,690)">
+<rect x="0" y="0" width="380" height="155" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Action Journal &amp; Receipts</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Recent action entries</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Recent operation receipts</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Reference-based lookup</text>
+</g>
+<g transform="translate(70,920)">
+<rect x="0" y="0" width="380" height="130" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#ffedd5" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Load Demo Data</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Creates sample students/trainers</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Creates courses with capacity</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Creates active, completed and waitlisted enrollments</text>
+</g>
+<g transform="translate(510,920)">
+<rect x="0" y="0" width="380" height="130" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#ffedd5" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Guided Demo</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Runs deterministic walkthrough</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Shows waitlisting and promotion</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Prints receipts and reports</text>
+</g>
+<path d="M 480 175 V 215 H 260 V 250" fill="none" stroke="#64748b" stroke-width="1.35" marker-end="url(#arrow-gray)"/>
+<path d="M 480 175 V 215 H 700 V 250" fill="none" stroke="#64748b" stroke-width="1.35" marker-end="url(#arrow-gray)"/>
+<path d="M 480 175 V 215 H 260 V 470" fill="none" stroke="#64748b" stroke-width="1.35" marker-end="url(#arrow-gray)"/>
+<path d="M 480 175 V 215 H 700 V 470" fill="none" stroke="#64748b" stroke-width="1.35" marker-end="url(#arrow-gray)"/>
+<path d="M 480 175 V 215 H 260 V 690" fill="none" stroke="#64748b" stroke-width="1.35" marker-end="url(#arrow-gray)"/>
+<path d="M 480 175 V 215 H 700 V 690" fill="none" stroke="#64748b" stroke-width="1.35" marker-end="url(#arrow-gray)"/>
+<path d="M 480 175 V 890 H 260 V 920" fill="none" stroke="#64748b" stroke-width="1.35" marker-end="url(#arrow-gray)"/>
+<path d="M 480 175 V 890 H 700 V 920" fill="none" stroke="#64748b" stroke-width="1.35" marker-end="url(#arrow-gray)"/>
+</svg>

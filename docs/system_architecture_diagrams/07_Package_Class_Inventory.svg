@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1500" viewBox="0 0 960 1500" role="img" aria-label="LearnTrack — Package and Class Inventory">
+<defs>
+<marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/></marker>
+<marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#059669"/></marker>
+<marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d97706"/></marker>
+<marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7c3aed"/></marker>
+<marker id="arrow-gray" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+<marker id="arrow-pink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#db2777"/></marker>
+<marker id="inherit" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 13 7 L 0 14 z" fill="white" stroke="#2563eb" stroke-width="1.8"/></marker>
+</defs>
+<rect x="0" y="0" width="960" height="1500" fill="#ffffff"/>
+<text x="480.0" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">LearnTrack — Package and Class Inventory</text>
+<text x="480.0" y="58" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#4b5563">All source packages and classes included in the project</text>
+<g transform="translate(60,100)">
+<rect x="0" y="0" width="380" height="277" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#eff6ff" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">entity</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">Person</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">Student</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">Trainer</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">Course</text>
+<text x="18" y="124" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">Enrollment</text>
+<text x="18" y="142" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">EnrollmentDecision</text>
+<text x="18" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">OperationReceipt</text>
+<text x="18" y="178" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">ActionLogEntry</text>
+</g>
+<g transform="translate(520,100)">
+<rect x="0" y="0" width="380" height="181" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#eef2ff" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">entity.enums</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">EnrollmentStatus</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">CourseLevel</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">ActionType</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">RuleCode</text>
+</g>
+<g transform="translate(60,350)">
+<rect x="0" y="0" width="380" height="277" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#ecfeff" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">service</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">StudentService</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">TrainerService</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">CourseService</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">EnrollmentService</text>
+<text x="18" y="124" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">ReportService</text>
+<text x="18" y="142" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">ReceiptService</text>
+<text x="18" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">ActionLogService</text>
+<text x="18" y="178" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">GuidedDemoService</text>
+</g>
+<g transform="translate(520,350)">
+<rect x="0" y="0" width="380" height="133" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#fef9c3" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">service.policy</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">EnrollmentPolicy</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">DeactivationPolicy</text>
+</g>
+<g transform="translate(60,600)">
+<rect x="0" y="0" width="380" height="301" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#f0fdf4" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">ui</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">Main</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">LearnTrackConsole</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">ConsoleReader</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">StudentMenu</text>
+<text x="18" y="124" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">TrainerMenu</text>
+<text x="18" y="142" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">CourseMenu</text>
+<text x="18" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">EnrollmentMenu</text>
+<text x="18" y="178" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">ReportMenu</text>
+<text x="18" y="196" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">JournalMenu</text>
+</g>
+<g transform="translate(520,600)">
+<rect x="0" y="0" width="380" height="253" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#f5f3ff" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">util</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">IdGenerator</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">InputValidator</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">CourseCodeGenerator</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">RuleExplainer</text>
+<text x="18" y="124" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">ConsolePrinter</text>
+<text x="18" y="142" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">TextTablePrinter</text>
+<text x="18" y="160" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">SeedDataLoader</text>
+</g>
+<g transform="translate(60,930)">
+<rect x="0" y="0" width="380" height="205" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#fef2f2" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">exception</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">EntityNotFoundException</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">InvalidInputException</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">DuplicateEntityException</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">BusinessRuleViolationException</text>
+<text x="18" y="124" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">InvalidEnrollmentStateException</text>
+</g>
+<g transform="translate(520,930)">
+<rect x="0" y="0" width="380" height="133" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="380" height="34" rx="14" fill="#fff7ed" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 380" stroke="#334155" stroke-width="1"/>
+<text x="190.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">test</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">LearnTrackSmokeTest</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#4b5563">ManualScenarioRunner</text>
+</g>
+<g transform="translate(280,1240)">
+<rect x="0" y="0" width="400" height="115" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="400" height="34" rx="14" fill="#dbeafe" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 400" stroke="#334155" stroke-width="1"/>
+<text x="200.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">Visible OOP hierarchy</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Person is the base class</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Student extends Person</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">Trainer extends Person</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563">People Directory uses ArrayList&lt;Person&gt;</text>
+</g>
+</svg>

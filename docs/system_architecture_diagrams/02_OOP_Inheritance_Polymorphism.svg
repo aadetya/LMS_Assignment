@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="900" viewBox="0 0 960 900" role="img" aria-label="LearnTrack — OOP Inheritance and Polymorphism">
+<defs>
+<marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/></marker>
+<marker id="arrow-green" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#059669"/></marker>
+<marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#d97706"/></marker>
+<marker id="arrow-purple" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7c3aed"/></marker>
+<marker id="arrow-gray" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+<marker id="arrow-pink" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 10 5 L 0 10 z" fill="#db2777"/></marker>
+<marker id="inherit" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth"><path d="M 0 0 L 13 7 L 0 14 z" fill="white" stroke="#2563eb" stroke-width="1.8"/></marker>
+</defs>
+<rect x="0" y="0" width="960" height="900" fill="#ffffff"/>
+<text x="480.0" y="34" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">LearnTrack — OOP Inheritance and Polymorphism</text>
+<text x="480.0" y="58" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#4b5563">Person is the shared parent type; Student and Trainer override display behavior</text>
+<g transform="translate(54,74)">
+<rect x="0" y="0" width="360" height="76" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="14" y="21" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">Notation</text>
+<line x1="15" y1="36" x2="65" y2="36" stroke="#2563eb" stroke-width="2" marker-end="url(#arrow-blue)"/>
+<text x="78" y="40" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">extends / inherits</text>
+<line x1="15" y1="59" x2="65" y2="59" stroke="#059669" stroke-width="2" marker-end="url(#arrow-green)"/>
+<text x="78" y="63" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" fill="#4b5563">runtime dispatch through parent type</text>
+</g>
+<g transform="translate(330,170)">
+<rect x="0" y="0" width="300" height="201" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="300" height="36" rx="12" fill="#dbeafe" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 300" stroke="#0f172a" stroke-width="1"/>
+<text x="150.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Person</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">id</tspan><tspan fill="#6b7280"> : int</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">firstName</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="113" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">lastName</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="130" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">email</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<rect x="12" y="141" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="155" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="179" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getDisplayName()</text>
+</g>
+<g transform="translate(70,385)">
+<rect x="0" y="0" width="350" height="167" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="350" height="36" rx="12" fill="#e0f2fe" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 350" stroke="#0f172a" stroke-width="1"/>
+<text x="175.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Student</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">batch</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<text x="18" y="96" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">learningGoal</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<rect x="12" y="107" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="121" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="145" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getDisplayName()  // overrides</text>
+</g>
+<g transform="translate(540,385)">
+<rect x="0" y="0" width="350" height="150" rx="12" fill="#ffffff" stroke="#0f172a" stroke-width="1.3"/>
+<rect x="0" y="0" width="350" height="36" rx="12" fill="#e0f2fe" stroke="#0f172a" stroke-width="1.3"/>
+<path d="M 0 34 H 350" stroke="#0f172a" stroke-width="1"/>
+<text x="175.0" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Trainer</text>
+<rect x="12" y="41" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="55" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Fields</text>
+<text x="18" y="79" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827"><tspan font-weight="700">expertise</tspan><tspan fill="#6b7280"> : String</tspan></text>
+<rect x="12" y="90" width="94" height="20" rx="6" fill="#f3f4f6" stroke="#e5e7eb"/>
+<text x="59" y="104" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#4b5563">Methods</text>
+<text x="18" y="128" font-family="Cascadia Mono, Consolas, Menlo, monospace" font-size="11.5" fill="#111827">getDisplayName()  // overrides</text>
+</g>
+<g transform="translate(250,665)">
+<rect x="0" y="0" width="460" height="150" rx="14" fill="#ffffff" stroke="#334155" stroke-width="1.2"/>
+<rect x="0" y="0" width="460" height="34" rx="14" fill="#f8fafc" stroke="#334155" stroke-width="1.2"/>
+<path d="M 0 32 H 460" stroke="#334155" stroke-width="1"/>
+<text x="230.0" y="23" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle" fill="#111827">People Directory Report</text>
+<text x="18" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563"><tspan font-weight="700" fill="#111827">Collection:</tspan> ArrayList&lt;Person&gt; people</text>
+<text x="18" y="70" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563"><tspan font-weight="700" fill="#111827">Loop:</tspan> for each Person item</text>
+<text x="18" y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563"><tspan font-weight="700" fill="#111827">Call:</tspan> item.getDisplayName()</text>
+<text x="18" y="106" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12.5" fill="#4b5563"><tspan font-weight="700" fill="#111827">Result:</tspan> Student and Trainer format themselves</text>
+</g>
+<line x1="245" y1="385" x2="405" y2="362" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arrow-blue)"/>
+<line x1="715" y1="385" x2="555" y2="362" stroke="#2563eb" stroke-width="1.8" marker-end="url(#arrow-blue)"/>
+<path d="M 245 535 C 245 620 380 645 410 665" fill="none" stroke="#059669" stroke-width="1.8" marker-end="url(#arrow-green)"/>
+<path d="M 715 535 C 715 620 590 645 560 665" fill="none" stroke="#059669" stroke-width="1.8" marker-end="url(#arrow-green)"/>
+<rect x="422.0" y="607" width="116.0" height="18" rx="6" fill="#ffffff" stroke="#e5e7eb"/>
+<text x="480" y="620" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#059669">dynamic dispatch</text>
+</svg>
