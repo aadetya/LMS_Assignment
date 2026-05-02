@@ -161,7 +161,7 @@ Overriding allows the same method name to produce behavior based on the actual o
 
 The People Directory report demonstrates polymorphism. It combines students and trainers into an `ArrayList<Person>` and then prints each object by calling `getDisplayName()`.
 
-At runtime, Java decides whether to call the student version or trainer version of the method. This is a practical use of polymorphism rather than a token example.
+At runtime, Java decides whether to call the student version or trainer version of the method. The People Directory prints the result of that dispatch.
 
 ---
 
@@ -241,7 +241,7 @@ Rule codes make error messages easier to understand and verify.
 
 ## 16. Operation receipts
 
-Operation receipts are user-facing confirmations. They record:
+Operation receipts are saved confirmations. They record:
 
 - receipt ID
 - timestamp
@@ -253,7 +253,7 @@ Operation receipts are user-facing confirmations. They record:
 - reference type
 - reference ID
 
-Operation receipts give important actions a traceable result rather than only printing a short success line.
+Operation receipts give important actions a saved result that can be viewed again.
 
 ---
 
@@ -261,7 +261,7 @@ Operation receipts give important actions a traceable result rather than only pr
 
 The action journal records internal mutation history. It is separate from receipts.
 
-Receipts are user-facing confirmations. Journal entries are internal system history. Together, they make the application easier to inspect without needing a database or log file.
+Receipts are operation confirmations. Journal entries are internal system history. Together, they let the menu show what changed during the session.
 
 ---
 

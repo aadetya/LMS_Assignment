@@ -184,6 +184,6 @@ Additional documentation:
 
 ---
 
-## Overall assessment
+## Coverage summary
 
-LearnTrack covers all required rubric categories and adds a practical operations layer while staying within Core Java. The strongest areas are service separation, lifecycle rules, enrollment decisions, waitlist promotion, operation receipts, action journal, rule codes, and reporting.
+The project includes the required setup docs, package structure, OOP implementation, menu UI, service logic, custom exceptions, diagrams, screenshots, and terminal verification classes.

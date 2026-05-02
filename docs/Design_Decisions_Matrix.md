@@ -21,6 +21,6 @@ Key implementation choices and the Java concept behind each one.
 | Use waitlist promotion | Manual promotion only | Cancelling an active enrollment should fill the seat from waitlist | Loops and status transitions | Demonstrates non-trivial logic |
 | Use Trainer as operational entity | Trainer class unused | Trainer can be assigned and reported | Inheritance and service coordination | Inheritance is meaningful |
 | Use People Directory | Separate student/trainer print only | Students and trainers can be handled through `Person` | Polymorphism and overriding | Runtime dispatch is visible |
-| Use Cohort Health Score | Only list reports | Score summarizes operating risks | Arithmetic and conditionals | Reporting feels purposeful |
-| Use Guided Demo | Manual discovery only | Shows the strongest workflow quickly | Service orchestration | Waitlist behavior is easy to verify |
+| Use Cohort Health Score | Only list reports | Score summarizes operating risks | Arithmetic and conditionals | Report output includes a single health label |
+| Use Guided Demo | Manual discovery only | Shows the capacity and waitlist workflow quickly | Service orchestration | Waitlist behavior can be checked from one menu option |
 | Use smoke test with `main` | No test class | Verifies service logic without JUnit | Main method, assertions by helper methods | Quick terminal validation |

@@ -1,6 +1,6 @@
 # Manual Test Cases
 
-These tests can be performed through the console application. They cover the required assignment behavior and the richer LearnTrack workflow.
+These tests can be performed through the console application. They cover the required assignment behavior plus capacity, waitlist, reports, receipts, and journal entries.
 
 ---
 
@@ -87,4 +87,4 @@ Use this order for a quick end-to-end check:
 7. View Cohort Health Score.
 8. Run the smoke test from terminal.
 
-The sequence covers the required fundamentals plus the stronger workflow: capacity, waitlist, promotion, reports, receipts, journal entries, and rule-based validation.
+The sequence covers the required fundamentals plus capacity, waitlist, promotion, reports, receipts, journal entries, and rule-based validation.

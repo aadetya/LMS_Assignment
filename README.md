@@ -1,8 +1,8 @@
 # LearnTrack — Cohort Learning Operations Console
 
-LearnTrack is a console-based Core Java application for managing students, trainers, courses, enrollments, waitlists, course capacity, learning reports, and operational history. The assignment target is a Student & Course Management System using Core Java fundamentals; this project stays inside that scope while presenting the work as a small learning-operations console.
+LearnTrack is a console-based Core Java application for managing students, trainers, courses, enrollments, waitlists, course capacity, learning reports, and operational history. The assignment target is a Student & Course Management System using Core Java fundamentals, so the project stays within plain Java and in-memory storage.
 
-The console areas are named **Learner Desk**, **Course Catalog Ops**, **Enrollment Desk**, **Reports & Signals**, **Action Journal**, and **Guided Demo**. The source code still uses the required academic entities such as `Student`, `Course`, and `Enrollment`, so the rubric remains easy to verify.
+The console areas are named **Learner Desk**, **Course Catalog Ops**, **Enrollment Desk**, **Reports & Signals**, **Action Journal**, and **Guided Demo**. The main domain classes still use the required academic entities such as `Student`, `Course`, and `Enrollment`.
 
 ---
 
@@ -66,9 +66,9 @@ LearnTrack manages the main operational records used in a learning cohort:
 
 ---
 
-## Why the workflow is more than add-list-update-delete
+## Core workflows
 
-LearnTrack keeps the expected Core Java scope, but the domain rules are richer than a plain CRUD console.
+The main behavior is built around lifecycle state, enrollment decisions, course capacity, receipts, journal entries, and reports.
 
 ### Lifecycle instead of physical deletion
 
@@ -84,7 +84,7 @@ Courses have `maxSeats`. If seats are available, the learner receives an `ACTIVE
 
 ### Rule codes
 
-Rules have stable identifiers such as `LT-RULE-ENROLL-003` and `LT-RULE-DEACTIVATE-002`. These codes appear in exceptions, receipts, tests, and documentation, making the behavior easier to verify.
+Rules have stable identifiers such as `LT-RULE-ENROLL-003` and `LT-RULE-DEACTIVATE-002`. These codes appear in exceptions, receipts, tests, and documentation.
 
 ### Operation receipts
 
@@ -96,7 +96,7 @@ The action journal stores internal mutation history in memory. It records events
 
 ### Reports as operating signals
 
-Reports do more than list records. They explain course health, capacity utilization, trainer coverage, waitlists, student learning history, and cohort risk.
+Reports show course health, capacity utilization, trainer coverage, waitlists, student learning history, and cohort risk.
 
 ---
 
@@ -148,7 +148,7 @@ LearnTrack/
 | `docs/Manual_Test_Cases.md` | Manual test cases for checking menu flows and business rules |
 | `docs/Demo_Guide.md` | Suggested terminal demo sequence |
 | `docs/Scenario_Walkthrough.md` | End-to-end walkthrough of the main learning-operations scenario |
-| `docs/Signature_Design.md` | Extra design polish: receipts, reports, rule codes, and guided demo behavior |
+| `docs/Signature_Design.md` | Design details for receipts, reports, rule codes, and guided demo behavior |
 
 ---
 
@@ -268,28 +268,15 @@ The smoke test verifies duplicate email rejection, accepted enrollment, waitlist
 
 ---
 
-## Suggested demo path
-
-1. Compile the project.
-2. Run `com.airtribe.learntrack.ui.Main`.
-3. Select **Load Demo Data**.
-4. Open **Reports & Signals** and view the Learning Pulse Dashboard.
-5. Run **Guided Demo**.
-6. Open **Action Journal & Receipts** and inspect receipts and action entries.
-7. Open **Course Operations Card**, **Cohort Health Score**, **Capacity Report**, **Waitlist Report**, and **People Directory**.
-8. Run `LearnTrackSmokeTest` from terminal.
-
----
-
 ## LearnTrack architecture diagrams
 
 ![LearnTrack Domain UML Class Diagram](docs/system_architecture_diagrams/01_Domain_UML_Class_Diagram.svg)
 
-These diagrams are intentionally split by purpose. A class diagram is best for static structure, while enrollment flow, status lifecycle, console navigation, and package inventory are easier to read as separate diagrams.
+The README shows the domain UML diagram first. The remaining diagrams cover inheritance, services, enrollment lifecycle, runtime workflow, console navigation, and package inventory.
 
 | File | Use it for |
 |---|---|
-| `docs/system_architecture_diagrams/01_Domain_UML_Class_Diagram.svg` | README class diagram requirement: core entities, inheritance, ID references, enrollment decisions, receipts, and action log records |
+| `docs/system_architecture_diagrams/01_Domain_UML_Class_Diagram.svg` | Class diagram for core entities, inheritance, ID references, enrollment decisions, receipts, and action log records |
 | `docs/system_architecture_diagrams/02_OOP_Inheritance_Polymorphism.svg` | OOP explanation: `Person`, `Student`, `Trainer`, overriding, and `ArrayList<Person>` polymorphism |
 | `docs/system_architecture_diagrams/03_Service_Responsibility_Map.svg` | Service ownership and separation of concerns |
 | `docs/system_architecture_diagrams/04_Enrollment_Lifecycle_State_Machine.svg` | Enrollment status lifecycle and valid transitions |
@@ -299,7 +286,7 @@ These diagrams are intentionally split by purpose. A class diagram is best for s
 
 ## Demo screenshots
 
-The screenshots below come from a scripted console run plus the smoke test. Together they cover setup verification, menu flow, in-memory data, reports, OOP/polymorphism, enrollment decisions, waitlist promotion, receipts, action journal, and exception handling.
+These screenshots come from the current console output and smoke test. Together they cover setup verification, menu flow, in-memory data, reports, OOP/polymorphism, enrollment decisions, waitlist promotion, receipts, action journal, and exception handling.
 
 | Step | Covers | Screenshot |
 |---|---|---|
@@ -319,11 +306,4 @@ The screenshots below come from a scripted console run plus the smoke test. Toge
 
 ## Current scope limit
 
-All data is in memory. Records disappear when the program exits. This is intentional because the assignment focuses on Core Java fundamentals, not databases or file persistence.
-
-## Submission readiness
-
-- Source code is under `src/com/airtribe/learntrack` using clear packages.
-- Build output is ignored through `.gitignore`; `out/`, `.class` files, `sources.txt`, and `.DS_Store` should not be committed.
-- The README links to architecture diagrams and actual terminal screenshots.
-- The project compiles with `javac` and the smoke test reports `PASS=16 FAIL=0`.
+All data is in memory. Records disappear when the program exits because the assignment focuses on Core Java fundamentals, not databases or file persistence.

@@ -1,6 +1,6 @@
 # Rule Catalog
 
-LearnTrack uses rule codes to make validation readable and easy to verify. A rule code is a stable identifier for a business rule used in services, policies, exceptions, receipts, and tests.
+LearnTrack uses rule codes to show exactly which rule blocked or shaped an operation. A rule code is a stable identifier for a business rule used in services, policies, exceptions, receipts, and tests.
 
 ---
 

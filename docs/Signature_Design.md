@@ -1,10 +1,10 @@
 # Signature Design
 
-LearnTrack is built around learning-operations workflows. These design features give the project a clear identity beyond a basic management menu.
+LearnTrack uses learning-operations workflows around students, courses, enrollments, reports, receipts, and journal entries.
 
 ---
 
-## 1. Product vocabulary
+## 1. Menu names
 
 The menu labels use operational language:
 
@@ -18,7 +18,7 @@ The menu labels use operational language:
 | Logs and receipts | Action Journal & Receipts |
 | Demonstration | Guided Demo |
 
-The console stays readable, and each area has a clear purpose.
+Each menu groups related actions.
 
 ---
 
@@ -81,7 +81,7 @@ If the course is full but open, the learner receives a waitlisted enrollment.
 
 If an active enrollment is cancelled, the first waitlisted learner is promoted.
 
-The workflow demonstrates `ArrayList`, loops, conditionals, enum status, exceptions, service coordination, and readable reporting.
+The workflow uses `ArrayList`, loops, conditionals, enum status, exceptions, service coordination, and reporting.
 
 ---
 
@@ -151,7 +151,7 @@ The lifecycle model stays visible, and deactivation does not destroy history.
 
 ## 10. Trainer coverage
 
-Trainers are not decorative. They can be added, updated, assigned to courses, and protected from unsafe deactivation. Reports can show courses with trainers, courses without trainers, and active trainers not assigned to active courses.
+Trainer records are used by course assignment and reports. They can be added, updated, assigned to courses, and protected from unsafe deactivation. Reports can show courses with trainers, courses without trainers, and active trainers not assigned to active courses.
 
 Trainer assignment makes the `Trainer extends Person` class useful.
 
@@ -172,7 +172,7 @@ The guided demo runs a controlled workflow:
 9. Print the Course Operations Card again.
 10. Print the Cohort Health Score.
 
-The guided demo gives a fast path to the strongest behavior.
+The guided demo gives a quick way to check capacity and promotion behavior.
 
 ---
 
