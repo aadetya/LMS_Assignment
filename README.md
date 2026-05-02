@@ -2,7 +2,7 @@
 
 LearnTrack is a small terminal-based LMS project built for the Core Java assignment. It handles the usual learning-management work: students, trainers, courses, enrollments, seat capacity, waitlists, reports, and action history. The project uses plain Java and in-memory `ArrayList` storage, so it can be compiled and tested with only the JDK.
 
-The menu is organized like an admin console. **Learner Desk** handles students, **Course Catalog Ops** handles courses, **Enrollment Desk** handles enrollment decisions, **Reports & Signals** shows system status, **Action Journal** keeps operation history, and **Guided Demo** walks through the main workflow. The required classes such as `Student`, `Course`, `Enrollment`, `Person`, and `Trainer` are kept easy to find in the source code.
+The menu is organized like an admin console. **Learner Desk** handles students, **Course Catalog Ops** handles courses, **Enrollment Desk** handles enrollment decisions, **Reports & Signals** shows system status, **Action Journal & Receipts** keeps operation history, and **Guided Demo** walks through the main workflow. The required classes such as `Student`, `Course`, `Enrollment`, `Person`, and `Trainer` are kept easy to find in the source code.
 
 ---
 
